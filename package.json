@@ -1,0 +1,19 @@
+{
+  "name": "ng1-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1",
+    "htmlhint": "^0.9.13",
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/htmlhint index.html; node_modules/.bin/eslint js/*js || echo",
+    "start": "node_modules/.bin/http-server"
+  },
+  "author": "",
+  "license": "MIT"
+}
